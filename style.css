@@ -175,3 +175,22 @@ p{
 .Score{
     font-weight: bold;
 }
+
+@media (max-width:500px)
+{
+    #wrapper{
+        display: block;
+        height: 100vh;
+    }
+    .white-box{
+        border-radius: 0px;
+        box-shadow: none;
+    }
+
+    .blue-box{
+        box-shadow: none;
+        border-radius: 0px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+    }
+}
